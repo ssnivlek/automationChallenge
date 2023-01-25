@@ -19,6 +19,4 @@ def excelGenerator(loc):
 
     writer.close()
 
-    return "Excel File Generated"
-
-excelGenerator('../../pdfs')
+    print("Excel File Generated")
