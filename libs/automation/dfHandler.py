@@ -22,4 +22,3 @@ def refactDf(df,date):
     df['Data'][1]=date
     
     return df
-

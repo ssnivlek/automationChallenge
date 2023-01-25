@@ -1,8 +1,8 @@
 import requests
-from bs4 import BeautifulSoup
 from urllib.request import urlopen
+from bs4 import BeautifulSoup
 
-def pdfDownloader(path,pages):
+def pdfDown(path,pages):
     html_page = urlopen("https://www.gob.mx/conadesuca/documentos/dieproc-reportes-de-avance-de-produccion-ciclo-azucarero-2020-2021?state=published")
 
     soup = BeautifulSoup(html_page) 

@@ -1,7 +1,7 @@
 import importlib.machinery
-from dfHandler import pdfToDf, refactDf
 import pandas as pd
 import pathlib
+from dfHandler import pdfToDf, refactDf
 
 pdfLibLoader = importlib.machinery.SourceFileLoader('pdfHandler', '../../libs/pdfReader/pdfHandler.py')
 pdfHandler = pdfLibLoader.load_module('pdfHandler')

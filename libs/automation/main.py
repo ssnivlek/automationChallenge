@@ -1,8 +1,8 @@
-from autoPdfDownload import pdfDownloader
+from autoPdfHandler import pdfDown
 from excelHandler import excelGenerator
 
 def automationMain(path,pages):
-    pdfDownloader(path,pages)
+    pdfDown(path,pages)
     excelGenerator(path)
 
     return ('Excel File Saved Successfully')
